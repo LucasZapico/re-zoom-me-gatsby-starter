@@ -23,7 +23,7 @@
 # Branches settings in the UI will inherit these settings.
 [context.production.environment]
   GATSBY_GOOGLE_API_KEY=""
-  GATSBY_SITE_URL="https://re-zoom-me.netlfy.app"
+  GATSBY_SITE_URL="https://re-zoom-me-gatsby-starter.netlfy.app"
   GATSBY_LEAD_URL=""
   GATSBY_ENV="production"
   GATSBY_GOOGLE_ANALYTIC_ID="UA-dummy"
@@ -42,7 +42,7 @@
 
 [context.staging.environment]
   GATSBY_GOOGLE_API_KEY=""
-  GATSBY_SITE_URL="https://staging.re-zoom-me.netlfy.app"
+  GATSBY_SITE_URL="https://re-zoom-me-gatsby-starter.netlfy.app"
   GATSBY_LEAD_URL=""
   GATSBY_ENV="staging"
   GATSBY_GOOGLE_ANALYTIC_ID="UA-dummy"
