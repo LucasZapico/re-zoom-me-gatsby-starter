@@ -1,0 +1,178 @@
+@import "~normalize.css"; 
+
+.resume-wrapper {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  min-height: 100vh;
+  background-color: #333333;
+  grid-template-columns: repeat(12, 1fr);
+  display: grid;
+  p {
+    max-width: 600px;
+  }
+  .info-wrapper {
+    border: 1px solid;
+    border-color: #e0e0e0;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    grid-column: 3 / span 8;
+    color: #fbfbfb;
+    background-color: #333333;
+    .info-name {
+      text-align: center;
+      color: #fbfbfb;
+      font-size: 50px;
+      margin-bottom: .5rem;
+    }
+    .info-title {
+      text-align: center;
+      color: #fbfbfb;
+    }
+    .info-social-wrapper {
+      color: #fbfbfb;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: .5rem;
+      .info-social-item {
+        margin-right: .5rem;
+
+      }
+    }
+    .info-items-wrapper {
+      display: flex;
+      flex-direction: row;
+      .info-item {
+        margin-right: .5rem;
+        color: #fbfbfb;
+      }
+    }
+  }
+  /***
+  ***
+  *** INTRODUCTION STYLES
+  ***/
+  .introduction-wrapper {
+    border: 1px solid;
+    border-color: #e0e0e0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #333333;
+    color: #fbfbfb;
+    grid-column: 3 / span 8;
+    .introduction-title {
+      color: #fbfbfb;
+      text-align: center;
+      padding-top: 1rem;
+      padding-bottom: 1.5rem;
+      
+    }
+    .introduction {
+      color: #fbfbfb;
+    }
+  }
+  /***
+  ***
+  *** WORKXP STYLES
+  ***/
+  .workxp-wrapper {
+    border: 1px solid;
+    border-color: #e0e0e0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #333333;
+    grid-column: 3 / span 8;
+    color: #fbfbfb;
+    .workxp-title {
+      padding-bottom: 1.5rem;
+      text-align: center;
+      color: #fbfbfb;
+    }
+    .workxp-items-wrapper {
+      
+      .workxp-items {
+        .workxp-item-company {
+          text-transform: uppercase;
+          color: #fbfbfb;
+        }
+        .workxp-item-location {
+          color: #fbfbfb;
+
+        }
+        .workxp-item-role {
+          font-size: 1.3rem;
+          color: #fbfbfb;
+        }
+        .workxp-item-period {
+          color: #fbfbfb;
+        }
+        .workxp-item-description { 
+          color: #fbfbfb;
+        }
+      }
+    }
+  }
+  /***
+  ***
+  *** EDUCATION STYLES
+  ***/
+.education-wrapper {
+  border: 1px solid;
+  border-color: #e0e0e0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #333333;
+  grid-column: 3 / span 8;
+  color: #fbfbfb;
+  .education-title {
+    padding-bottom: 1.5rem;
+    color: #fbfbfb;
+  }
+  .education-items-wrapper {
+    .education-period {
+      color: #fbfbfb;
+    }
+    .education-location {
+      color: #fbfbfb;
+    }
+    .education-items {
+      color: #fbfbfb;
+    }
+    .education-institution {
+      color: #fbfbfb;
+    }
+    .education-field {
+      color: #fbfbfb;
+    }
+
+  }
+
+}
+  /***
+  ***
+  *** SKILLS STYLES
+  ***/
+  .skills-wrapper {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #333333;
+    grid-column: 3 / span 8;
+    .skills-title {
+    
+    }
+    .skills-items-wrapper {
+      .skills-items {
+    
+      }
+    }
+  
+  }
+
+}

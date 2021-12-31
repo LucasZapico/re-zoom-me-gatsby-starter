@@ -1,0 +1,42 @@
+// custom scroll bar
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lighten($color-six, 50%);
+  border: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color-six;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $color-six;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lighten($color-six, 70%);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color-six;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $color-six;
+}

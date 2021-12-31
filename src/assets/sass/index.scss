@@ -1,0 +1,68 @@
+@import './color.scss';
+
+@import './container-utils.scss';
+// @import "./resume-three.scss";
+
+
+html,
+body {
+  font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*:focus {
+  box-shadow: none !important;
+}
+
+::selection {
+  // background: #A3BCCF,//#ffb7b7; /* WebKit/Blink Browsers */
+  mix-blend-mode: 'exclusion';
+  background-color: currentcolor;
+}
+::-moz-selection {
+  mix-blend-mode: 'exclusion';
+  background-color: currentcolor;
+  // background: #A3BCCF,//#ffb7b7; /* Gecko Browsers */
+}
+
+a {
+  cursor: pointer;
+}
+
+.readable {
+  max-width: 600px;
+}
+
+// animations
+.bg-scale {
+  animation: bgScale 4s ease-in-out infinite alternate;
+}
+
+@keyframes bgScale {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+  to {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+}
+
+.float {
+  animation: floatItem 5s ease-in-out infinite alternate;
+}
+
+@keyframes floatItem {
+  from {
+    // transform: translateY(0%);
+    transform: translate3d(0%, 0%, 0%);
+  }
+  to {
+    // transform: translateY(10%);
+    transform: translate3d(0%, 5%, 3px);
+  }
+}
+
+// test
