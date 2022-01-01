@@ -65,7 +65,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-layout',
       options: {
-        component: require.resolve('./src/components/base/layout.js'),
+        component: require.resolve(`${__dirname}/src/components/base/layout.js`),
       },
     },
     {
@@ -81,7 +81,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: `${__dirname}/src/images/`,
       },
       __key: "images",
     },
@@ -89,7 +89,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./src/pages/",
+        path: `${__dirname}/src/pages/`,
       },
       __key: "pages",
     },
@@ -97,7 +97,7 @@ module.exports = {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'markdown-pages',
-        path: `./src/content`,
+        path: `${__dirname}/src/content/`,
       },
     },
   ],
